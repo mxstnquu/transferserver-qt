@@ -1,0 +1,6 @@
+file_downloads/
+
+build/
+qmake-server.pro
+.qtcreator/
+.vscode/
