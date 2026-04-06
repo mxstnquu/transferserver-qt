@@ -10,11 +10,15 @@ find_package(Qt6 REQUIRED COMPONENTS Core Network)
 qt_standard_project_setup()
 
 qt_add_executable(transferserver-qt    
-    FileHandler.cpp 
-    FileHandler.hpp 
-    Server.cpp 
-    Server.hpp 
+    src/FileHandler.cpp 
+    src/Server.cpp 
     main.cpp
+    include/FileHandler.hpp 
+    include/Server.hpp 
+)
+
+target_include_directories(transferserver-qt  
+    PRIVATE include
 )
 
 target_link_libraries(transferserver-qt 
