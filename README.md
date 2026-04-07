@@ -1,8 +1,11 @@
 # transferserver-qt
 
-# A simple TCP server for file and message transfer
+A simple TCP server for file and message transfer
 
 ## Demo (video)
+
+https://github.com/user-attachments/assets/0693a51e-41bb-4115-bd26-61767ff53d84
+
 
 
 ## Client
@@ -37,14 +40,15 @@ cmake --build build
 
 
 ## Project structure
-
+```
 transferserver-qt/
-  CMakeLists.txt
-  include/
-    Server.hpp
-    FileHandler.hpp
-  src/
-    Server.cpp
-    FileHandler.cpp
-  main.cpp
-  file_downloads/   (created automatically)
+├── CMakeLists.txt
+├── include/
+│   ├── Server.hpp
+│   └── FileHandler.hpp
+├── src/
+│   ├── Server.cpp
+│   └── FileHandler.cpp
+├── main.cpp
+└── file_downloads/   (created automatically)
+```
