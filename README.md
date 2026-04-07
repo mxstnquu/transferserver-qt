@@ -39,12 +39,12 @@ cmake --build build
 ## Project structure
 
 transferserver-qt/
-├── CMakeLists.txt
-├── include/
-│   ├── Server.hpp
-│   └── FileHandler.hpp
-├── src/
-│   ├── Server.cpp
-│   └── FileHandler.cpp
-├── main.cpp
-└── file_downloads/   (created automatically)
+  CMakeLists.txt
+  include/
+    Server.hpp
+    FileHandler.hpp
+  src/
+    Server.cpp
+    FileHandler.cpp
+  main.cpp
+  file_downloads/   (created automatically)
